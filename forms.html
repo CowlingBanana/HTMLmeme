@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Forms</title>
+</head>
+
+<body>
+    <form action="index.jsp" method="POST">
+        <label for="userName">User Name</label>
+        <input type="text" id=userName placeholder="username" required>
+        <br><br>
+        <label for="password">Password</label>
+        <input type="password" id=password placeholder="blabla" required>
+        <br><br>
+        <label for="email">Mail</label>
+        <input type="email" id=email placeholder="johnsmith@example.com" required><br>
+        <br>
+        <label for="txtarea">Comment: </label><br><br>
+        <textarea id="" cols="30" rows="10">
+        </textarea>
+        <br>
+        <br>
+        <label for="doc">Identity</label> <br><br>
+        <input type="file" id="doc">
+        <br>
+        <br>
+        <label for="gender">Gender: </label><br><br>
+        <input type="radio" name="g" id="gender" value="male">Male <br>
+        <input type="radio" name="g" id="gender" value="female">Female <br>
+        <input type="radio" name="g" id="gender" value="thirdGender">TG <br>
+        <br>
+        <label for="q">Qualification</label><br><br>
+        <input type="checkbox" name="q" id="q" value="1" checked>SLC
+        <input type="checkbox" name="q" id="q" value="2" checked>Plus Two
+        <input type="checkbox" name="q" id="q" value="3" checked>Bachelors
+        <input type="checkbox" name="q" id="q" value="4" checked>Masters
+        <input type="checkbox" name="q" id="q" value="5" checked>PHD
+        <br><br>
+        <label for="bday">DOB</label><br><br>
+        <input type="date" name="bday" id="bday">
+        <br><br>
+        <label for="age">Age</label><br><br>
+        <input type="number" name="age" id="age">
+        <br><br>
+        <label for="country">Country</label><br><br>
+        <select name="cc" id="cc">
+            <option value="" disable selected>Choose your Nation</option>
+            <option value="Nepal">Nepal</option>
+            <option value="UK">UK</option>
+            <option value="US">US</option>
+            <option value="Canada">Canada</option>
+        </select>
+
+        <br><br>
+        <input type="submit" value="signup">
+
+
+    </form>
+</body>
+
+</html>
