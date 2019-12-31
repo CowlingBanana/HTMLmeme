@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Menus Styling</title>
+</head>
+<body>
+    <ul class="navbar">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Partner Sites</a></li>
+    </ul>
+    <ul class="sidebar">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Partner Sites</a></li>
+    </ul>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .navbar{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            background: #4c6ca0;
+            border-radius: 5px;
+            overflow: auto;
+        }
+        .navbar li{
+            float: left;
+            
+        }
+        .navbar li a{
+            display: block;
+            color: seashell;
+            text-decoration: none;
+            padding: 15px 20px;
+        }
+        .navbar li a:hover{
+            color: seashell;
+            background: #446190;
+        }
+        .sidebar{
+            list-style: none;
+            border: 1px grey solid;
+            border-radius: 10px;
+            width: 300px;
+            padding: 20px;
+        }
+        .sidebar li{
+            font-size: 18px;
+            line-height: 2.4em;
+            border-bottom: dotted 1px rgb(184, 14, 14);
+        }
+        .sidebar li:last-child{
+            border: none;
+        }
+        .sidebar li a{
+            color: #333;
+            text-decoration: none;
+        }
+        .sidebar li a:hover{
+            color: indigo;
+        }
+    </style>
+</body>
+</html>
